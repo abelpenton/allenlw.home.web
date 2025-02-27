@@ -41,7 +41,7 @@ function App() {
       {/* Projects Grid */}
       <div className="max-w-7xl mx-auto px-4 py-16">
         <h2 className="text-3xl font-bold text-center mb-12">Mis Proyectos</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <ProjectCard 
             image="/img/labels.png"
             title="Etiquetas para Cocina"
@@ -59,6 +59,12 @@ function App() {
               title="Decoraciones Navidad"
               description="Haciendo de la navidad una magia"
               link="https://www.pinterest.com/lawrenti/"
+          />
+          <ProjectCard
+              image="/img/producto1.png"
+              title="Organizador Familiar"
+              description="Planifica con facilidad y gana más tiempo"
+              link="https://allenlw-home.hotmart.host/el-planificador-mensual-que-toda-familia-necesita-1cec8068-d7d4-4dc9-9ec2-1934e0520fbb"
           />
         </div>
       </div>
